@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConvertAgetoDateOfBirth</string>
+    <string name="age">Age</string>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_horizontal"
+        android:text="Age To Date Of Birth"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+        android:layout_marginTop="5dp"
+        android:layout_height="1dp"/>
+    <TextView
+        android:id="@+id/appx_age_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/age"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/age_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_background"
+        android:clickable="true"
+        android:padding="10dp"
+        android:textColor="#555" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/add_cart_rectangle"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:text="Convert"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/dateofbirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Your Date Of Birth is :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp"
+        android:visibility="gone" />
+
+
+</LinearLayout>
